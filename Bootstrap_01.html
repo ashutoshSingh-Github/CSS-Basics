@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title style="text-align: center;">Bootstrap</title>
+
+<!-- 
+        There are two ways of using bootstrap.
+
+    (1) Download and use bootstrap using relative link.
+    
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css"> 
+
+    (2) Using absolute link from the internet.
+-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body style="margin: 10px;">
+    <h4>We give different values of class to give styles.</h4>
+    <hr>
+    <h1 class="container-fluid">Bootstrap</h1>    <!--  creates a small margin in the left -->
+    <h1 class="page-header">Heading <small>By Ashutosh</small></h1>  <!--gives margin at the top and an extra line at the bottom.subtext can also be added using <small> tag. -->
+    <p class="container">Bootstrap is a styling framework which gives pre-written CSS (bootstrap.min.css) which can be included in our html document.</p>
+    <hr>
+    <h4 class="container">CDN = Content Delivery Network</h4>  <!-- arranges the text in the middle -->
+    <div class="container">   <!-- arranges the text in the middle -->
+        <p class="lead">  <!-- converts the paragraph into highlighted part -->
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam molestias provident rem natus nemo quod laudantium amet. Optio necessitatibus est minus ducimus quia suscipit modi? Dolorem facere quod voluptatibus magni? Recusandae nam itaque repudiandae quasi ratione ipsa reiciendis? Debitis sapiente suscipit doloribus amet eius nobis atque magnam velit? Laudantium quisquam accusamus aut odit sed deserunt rerum, sit excepturi minus id architecto, at quia inventore ad maiores obcaecati cupiditate necessitatibus corrupti similique, nulla soluta quis officia dolores. Eveniet harum aut explicabo rem deserunt, natus numquam praesentium necessitatibus qui culpa eum doloribus, ex doloremque ipsum dolor, dolorem accusantium! Officiis veritatis ab non?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officia magni praesentium, voluptatem accusantium dolor! Facilis, excepturi nulla eveniet, voluptatem natus ex, est cumque quam repellendus culpa suscipit rem? Deserunt vero hic blanditiis fuga accusamus ipsum optio sit, facere totam? Sequi ipsa illum consequatur harum accusantium quis voluptate, adipisci possimus porro tenetur, magni iusto obcaecati suscipit distinctio rem ut qui perspiciatis dolorem facilis doloribus at quos excepturi debitis. Eos, itaque assumenda accusamus magni excepturi voluptatum ducimus aliquid, veritatis reprehenderit odit necessitatibus? Recusandae ut in culpa autem, odit hic ratione at provident. Assumenda ipsa dolorum illo et exercitationem nobis harum id vero animi quaerat, repellat inventore perferendis repellendus cumque deleniti recusandae sunt quam rerum dolorem molestias ipsum fugit ab ut incidunt. Pariatur reprehenderit laborum, porro non, voluptate placeat quam mollitia animi tempora dicta nostrum veniam saepe dignissimos quasi est asperiores blanditiis ex. Modi optio natus id vitae, molestiae soluta autem, quaerat quae ad nesciunt fuga totam illum? Deleniti possimus dolores qui voluptatum quae nihil earum, quis vero quasi eius iure? Architecto sapiente eaque reprehenderit repellat veniam. Eaque maiores ducimus, error est reprehenderit expedita nulla qui corrupti! Fugit nostrum ipsam quasi ipsa quis placeat sequi, aliquid, beatae recusandae, hic harum obcaecati. Esse.
+        </p>
+        <h2>Alignments in Bootstrap</h2>
+        <p class="text-left">This is left-aligned</p>
+        <p class="text-center">This is center-aligned</p>
+        <p class="text-right">This is right-aligned</p>
+    </div>
+    <hr>
+    <div style="height: 400px;margin-left: 20px;">
+        <h2 class="container">Contextual classes <small>Way to define Bootstrap colour</small></h2>
+        <p class="text-primary">Contextual Class - PRIMARY</p>
+        <div style="width: 50px;height: 20px;" class="bg-primary"></div>
+        <p class="text-success">Contextual Class - SUCCESS</p>
+        <div style="width: 50px;height: 20px;" class="bg-success"></div>
+        <p class="text-warning">Contextual Class - WARNING</p>
+        <div style="width: 50px;height: 20px;" class="bg-warning"></div>
+        <p class="text-info">Contextual Class - INFO</p>
+        <div style="width: 50px;height: 20px;" class="bg-info"></div>
+        <p class="text-danger">Contextual Class - DANGER</p>
+        <div style="width: 50px;height: 20px;" class="bg-danger"></div>
+        <p class="text-muted">Contextual Class - MUTED</p>
+        <div style="width: 50px;height: 20px;" class="bg-muted"></div> <!--  muted is not for background, its only for text -->
+    </div>
+    <hr>
+    <h4>Anchors, Buttons and Submits</h4>
+
+    <div style="display: flex;justify-content: space-evenly">
+
+    <!-- on giving class="btn" the anchor tags, buttons and inputs, all behave as a button.we can also give contextual classes to define colours. -->
+
+        <a  class="btn btn-danger" href="">Anchor Tag</a>
+    <br>
+        <button class="btn btn-warning" >Button</button>
+    <br>
+        <input class="btn btn-info"  type="submit" value="Submit">
+    </div>
+    <br>
+    <button class="btn btn-block btn-success">Block Button</button>
+    <hr>
+    <h4>Button Size</h4>
+    <div>
+        <button class="btn btn-primary btn-sm">My Button 1</button> <!-- Small button. -->
+        <button class="btn btn-warning btn-lg">My Button 2</button> <!-- large button. -->
+        <button class="btn btn-success btn-xs">My Button 3</button> <!-- extra small. -->
+    </div>
+</body>
+</html>
