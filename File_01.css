@@ -1,0 +1,55 @@
+
+/*There are five types of selectors.*/
+
+/*Priority order is..INLINE > PSEUDO > ID > CLASS > ELEMENT(by directly name...for e.g. h1,p6 etc) > <style></style>
+
+
+
+/*1 Element selector*/
+p1{color: rgb(106, 201, 11);}
+p6{color: chartreuse;}
+h1{font-style: oblique;
+    color:rgb(88, 81, 81)}
+p6{color: cornflowerblue;}
+p7{color:blue}
+
+/*h2{color: chartreuse;}
+
+/*2 ID selector---to find any particular element using id,use # in the beginning.*/
+#paragraph{color: rgb(40, 8, 199);}
+#para7{color: crimson;}
+    /*for selecting multiple IDs at one,
+     we can write all in same line, separated by comma.
+     Example is given below.*/
+
+    /*#paragraph,#para7 {color: rgb(255, 111, 0);}
+/*3 Class selector---to find any element using class,use . in the beginning*/
+.class_one{color: crimson;}
+
+/*4 Pseudo selector*/
+/*Used temporarily.Grab the element and give a property.*/
+#para7:hover{color: rgb(17, 219, 226);}
+#etrain:visited{color: black;}
+a:visited{color: black;} /*----Works only when any colour isn't already assigned to the link.
+/*a:visited{color: rgb(106, 0, 255);}
+
+/*5 Attribute selector
+
+This selector is always used with square brackets.
+Used to select elements (like specific links in anchor tags) using keywords they contain.
+For example - https,www,org,in,com,./,info etc.
+
+FORMAT - element(attribute).
+For example...to find absolute links,we need to search links containig https.
+For that,we can use attribute selector in the given ways.
+Used to select any element or their class using something already present in them.
+FORMAT- element(attribute) */
+a[href^="https"] {color: rgb(231, 19, 19);}   /* ^= stands for "starts with"*/
+
+/*other ways*/
+
+a[href^="./"] {color: rgb(255, 0, 179);}
+
+a[href$="world"] {color: darkgoldenrod;}  /* $= stands for "ends with"*/
+a[href*="maza"] {color:deeppink}          /* *= stands for "contains"*/
+/*a[href*="/"] {color: dimgray;}            --This will select all, as all the links contain ./ in them.
