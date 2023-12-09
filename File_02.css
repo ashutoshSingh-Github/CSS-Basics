@@ -1,0 +1,41 @@
+/*
+There are multiple ways of specifying colours.
+
+(1) Name e.g. - black,green,yellow,etc.
+*/
+p2{color:gold}
+/*(2) Hex-codes e.g. - #eb3434  */
+p1{color:#eb3434}
+#para2{color:#339c29}
+#para3{color: #eb3434;}
+/*
+(3) RGB values e.g. - 235, 52, 52
+*/
+p1{color: rgb(174, 13, 13);}
+
+/*Making space in html,adjusting size and putting image/colour/gradient*/
+/*#box1{height:450px;width:100%;background: url('here paste the link after opening any image in new tab in google.');}*/
+#box2{height:300px;width:100%;background-color: rgb(33, 91, 184);}
+#box3{height:300px;width:100%;background-color: #eb3434;}
+
+
+/*
+GRADIENTS
+By default gradient colour varys from top to bottom
+*/
+#box4{height:300px;width:100%;background:linear-gradient(rgb(126, 126, 126),orange,yellow,green,blue,grey);}
+
+/*We can specify direction just before giving colours,as shown below.*/
+#box5{height:300px;width:100%;background:linear-gradient(to right,white,grey,green,red,black,white,black,red,green,grey,white);}
+
+/*To get a corner-directed gradient*/
+#box6{height:300px;width:100%;background:linear-gradient(to bottom right,grey,orange,yellow,green,blue,grey);}
+
+/*Degree can also be used in place of name of the position for directing gradients.
+Positive angles start from clockwise direction.
+An example of how it works:  -90deg = 270deg*/
+#box7{height:300px;width:100%;background:linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);}
+#box8{height:300px;width:100%;background:linear-gradient(135deg,violet,indigo,blue,green,yellow,orange,red);}
+#box9{height:300px;width:100%;background:linear-gradient(-45deg,violet,indigo,blue,green,yellow,orange,red);}
+#box10{height:300px;width:100%;background:linear-gradient(-135deg,violet,indigo,blue,green,yellow,orange,red);}
+#para4{color:maroon}
