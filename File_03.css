@@ -1,0 +1,25 @@
+h1{color:rgb(226, 42, 42)}
+p1{color: rgb(13, 32, 245);}
+#para2{color: rgb(2, 120, 2);}
+p3{color:maroon}
+#box1{height:200px;width:80%;background:linear-gradient(to right,blue,red)}
+/*RGBA coded colors
+'A' represents intensity of colour
+A = 1 means brightest intensity.
+A = 0 means lightest intensity.*/
+#box2{height:200px;width:90%;background:linear-gradient(135deg,rgb(7, 204, 0),rgb(214, 16, 16))}
+#box3{height:200px;width:80%;background: linear-gradient(45deg,rgba(169, 163, 163,0.9),grey,rgba(160, 155, 155,0.9));}
+#box4{height:200px;width:90%;background:linear-gradient(315deg,rgb(224, 13, 13,0.4),green,rgb(224, 15, 15,0.4))}
+
+/*body{background:linear-gradient(135deg,rgb(175, 107, 107),rgb(167, 167, 167)) ;}
+
+/*RADIAL GRADIENT*/
+
+#box5{height:400px;width:80%;background:radial-gradient(circle,violet,indigo,blue,green,yellow,orange 65%,red 80%)}
+
+/*Units of measurement.
+(1) Absolute units*/
+#para2{font-size : 5mm}
+#para3{font-size:10px}
+/*(2) Relative units*/
+#para4{font-size: 1.5em;}
