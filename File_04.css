@@ -1,0 +1,106 @@
+/*h1{font-style: oblique;}*/
+h1{font-style: italic;color: rgb(37, 177, 9);}
+#h1:hover{color: rgb(30, 91, 205);}
+/*To add any image/color in whole background,
+pick the body element and repeat all other procedures.
+e.g. --- 
+body{background-color: black;}
+Same can be done for any specific place by creating and picking container as mentioned earlier.
+
+BOX MODEL.
+margin-border-padding-content
+*/
+
+#box1{
+    width:600px;height:75%;
+    font-size: xx-large;text-align: center;
+    /*
+    First property of box model is border.
+    Format is given below.
+
+    border:width style color
+    */
+border: 5px solid red;text-align: center;
+
+/**/
+}
+
+#box2{width:600px;height:75%;
+border:4px dotted rgb(17, 17, 223);
+text-align: center;
+}
+
+#box3{width:600px;height:75%;
+border:5mm double brown;
+text-align: center;
+}
+
+#box4{width:600px;height:75%;text-align: center;
+border: 2mm dashed green;
+}
+
+#box5{width:600px;height:35%;
+border: 5px inset green;}
+
+#box6{width:600px;height:35%;
+border: 5px ridge red;}
+
+#box7{width:600px;height:35%;
+border: 5px groove red;}
+
+#box8{width:600px;height:35%;
+border: 5px outset blue;}
+
+#box9{width:600px;height:35%;
+border: 5px dashed  indigo}
+
+#box10{width:600px;height:35%;
+border: 5px none hidden black;}
+
+#box11{width:600px;height:35%;
+border: 20px dashed dotted double ridge red;}
+
+/*PADDING - Space between the content and the border of the box.*/
+
+#box12{width:600px;height:35%;
+border:5px solid grey;
+padding: 10px;
+}
+
+/*There are different ways of giving padding.*/
+
+#box13{width: 600px;height: 35%;
+border: 5px solid rgb(78, 72, 72);
+text-align: center;
+padding: 10px;
+}
+
+#box14{width: 600px;height: 15%;
+border: 5px solid rgb(30, 20, 169);
+border-radius: 50px;
+padding: 1px 5px 10px 20px;
+}
+#box15{width: 600px;height: 20%;
+border: 5px solid rgb(171, 42, 42);
+padding: 10px 5px 20px;
+}
+#box16{width: 600px;height: 25%;
+    text-align: center;
+    border: 5px solid rgb(9, 166, 9);
+
+    /*Border radius is defined for curvature on corner.*/
+    border-radius: 20px;
+
+    padding-left: 7px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-right:11px ;
+    
+    /*Margin is the area between the container and the page.*/
+    margin: 15px 5px;
+    margin: 3px 4px 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    margin-right: 6px;
+}
