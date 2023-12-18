@@ -1,0 +1,75 @@
+h1{text-align: center;color: maroon;margin: 20px;}
+body{background-color: beige;}
+
+/* FLEXBOXES */
+.subset{
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(181, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    line-height: 25px;
+    color: white;
+}
+/* After creating a main division, create multiple sub-divisions inside that main division. Then all the -divisions which, by default, get placed vertically, will get arranged horizontally by displaying the main division as flex. For example :- */
+#main{display: flex;
+
+/* The subsets are responsive...i.e. their width changes depending on the overall width available.This is because there is another property called flex-wrap, which is by default set as nowrap. */
+
+/* 
+flex-wrap: nowrap;  --- by default 
+*/
+flex-wrap: wrap;
+
+/* Another property is flex-direction: ;  ,which by default is 'row' for the flexboxes.We can change them as coloumn to change the arrangement of the subsets.
+
+flex-direction: row;     ---default
+flex-direction: column; 
+flex-direction: row-reverse;  ---starts from the left side
+flex-direction: column-reverse; ---starts from the bottom
+
+*/ 
+}
+
+/* For Navigation Bar */
+#navigation{display: flex;
+    /* justify-content: center;   ---puts all subsets of navigation head in middle 
+    justify-content: flex-start;  ---default
+    justify-content: flex-end;    ---shifts the subsets towards the right side*/
+
+    justify-content: space-evenly;
+}
+#link_list{
+    display: flex;
+
+    /* list-style-type: lower-alpha;  --- a,b,c,d,e etc at the place of dots */
+
+    list-style: none;  /*removes dots placed before the list items */
+    
+ 
+}
+.link{
+    text-align: center;
+    width: 50px;
+    height: 80px;
+    margin: 10px;
+    border: 2px rgb(96, 26, 0) solid;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(96, 26, 0);
+    text-decoration: none; /*  removes the underlining below the links */
+    
+}
+#button{   
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(61, 158, 0);}
+#logo{
+    width: 200px;
+    height: 140px;
+}
